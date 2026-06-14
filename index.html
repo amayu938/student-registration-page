@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Student Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#students">Student Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="registration">
+            <h2>Registration Form</h2>
+            <form>
+                <p>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </section>
+
+        <section id="students">
+            <h2>Student Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amayu Kaba</td>
+                        <td>Information Technology</td>
+                        <td>2nd Year</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Computer Science</td>
+                        <td>3rd Year</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Software Engineering</td>
+                        <td>1st Year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Registration System</p>
+    </footer>
+
+</body>
+</html>
